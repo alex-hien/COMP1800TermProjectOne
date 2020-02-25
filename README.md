@@ -15,8 +15,15 @@ https://trello.com/b/GmEzk0Cm/project-1-winter-2020
 **Sprint 1 Tasks:**
 * Alex Hien: 
 * Duncan Keen: 
+  * Set up Github repository
+  * invite collaborators
+  * write Plan of Action document
+  * update short-term goal
+  * write long-term goal for project
 * David Lee:
-* Vivienne Li:
+* Vivienne Li: 
+  * Create Trello
+  * Draw Wireframe
 
 
 **Long-Term Goals for the Project**
