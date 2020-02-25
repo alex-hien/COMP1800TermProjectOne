@@ -18,6 +18,9 @@ Create a reminders application along with User Authentication, weather API, and 
 **Goals for Sprint One:**
 Complete Trello board and wireframe, set up Github repository, assign sprint members to tasks, and research general approaches to how we are going to accomplish this project.
 
+**Wireframe Image:**
+https://drive.google.com/open?id=1HwImfo9lDLnu74qfu2npDJfPRl3B2EWw
+
 **Sprint 1 Tasks:**
 * Alex Hien: 
   * Add items to to product backlog
