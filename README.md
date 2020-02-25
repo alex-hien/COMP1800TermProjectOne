@@ -22,6 +22,7 @@ Complete Trello board and wireframe, set up Github repository, assign sprint mem
 * Alex Hien: 
   * Add items to to product backlog
   * Draw Wireframe
+  * Research general approaches to complete project
 * Duncan Keen: 
   * Set up Github repository
   * invite collaborators
@@ -29,12 +30,16 @@ Complete Trello board and wireframe, set up Github repository, assign sprint mem
   * update short-term goal
   * write long-term goal for project
   * Add items to to product backlog
+  * Research general approaches to complete project
 * David Lee:
   * Draw Wireframe
+  * Research general approaches to complete project
 * Vivienne Li: 
   * Create Trello
   * Draw Wireframe
   * Add items to to product backlog
+  * Research general approaches to complete project
+
 
 
 
