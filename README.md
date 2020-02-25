@@ -12,10 +12,10 @@ Plan of Action Document
 **Link to Trello Board:**
 https://trello.com/b/GmEzk0Cm/project-1-winter-2020
 
-**Long-Term Goals for the Project**
+**Long-Term Goals for the Project:**
 Create a reminders application along with User Authentication, weather API, and geolocation API.
 
-**Goals for Sprint One**
+**Goals for Sprint One:**
 Complete Trello board and wireframe, set up Github repository, assign sprint members to tasks, and research general approaches to how we are going to accomplish this project.
 
 **Sprint 1 Tasks:**
