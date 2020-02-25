@@ -3,20 +3,21 @@
 Plan of Action Document
 ========================
 
-Team Members:
+**Team Members:**
 * Alex Hien
 * Duncan Keen
 * David Lee
 * Vivienne Li
 
-Link to Trello Board:
+**Link to Trello Board:**
 https://trello.com/b/GmEzk0Cm/project-1-winter-2020
 
-Sprint 1 Tasks:
-* Alex Hien:
-* Duncan Keen:
+**Sprint 1 Tasks:**
+* Alex Hien: 
+* Duncan Keen: 
 * David Lee:
 * Vivienne Li:
 
+**Long-Term Goals for the Project**
 
 
