@@ -14,13 +14,9 @@ app.set("view engine", "ejs")
 
 // Routes start here
 
-app.get("/", function(req, res) {
-  res.render('reminder/promotion')
-}) 
+app.get("/", reminderController.landing) 
 
-app.get("/login", function(req, res) {
-  res.render('reminder/login')
-})
+app.get("/login", reminderController.toLogin)
 
 app.get("/reminder", reminderController.list)
 

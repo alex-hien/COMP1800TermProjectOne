@@ -61,6 +61,14 @@ let remindersController = {
     })
     Database.cindy.reminders.splice(reminderIndex, 1);
     res.redirect('/reminder');
+  },
+
+  landing: (req, res) => {
+    res.render('reminder/promotion');
+  },
+
+  toLogin: (req, res) => {
+    res.render('reminder/login');
   }
 
 //   user: (req, res) => {
