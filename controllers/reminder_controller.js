@@ -61,7 +61,23 @@ let remindersController = {
     })
     Database.cindy.reminders.splice(reminderIndex, 1);
     res.redirect('/reminder');
+  },
+
+  promo: (req, res) => {
+    res.render('reminder/promotion')
   }
+
+//   user: (req, res) => {
+//     if (Database[req.body.email] == undefined) {
+//       Database[req.body.email] = {
+//         reminders: []
+//       }
+//       res.redirect("/reminder");
+//     }
+//     else {
+//       res.redirect("/reminder");
+//     }
+//   }
 }
 
 module.exports = remindersController
