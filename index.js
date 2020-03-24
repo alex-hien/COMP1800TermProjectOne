@@ -18,6 +18,10 @@ app.get("/", function(req, res) {
   res.render('reminder/promotion')
 }) 
 
+app.get("/login", function(req, res) {
+  res.render('reminder/login')
+})
+
 app.get("/reminder", reminderController.list)
 
 app.get("/reminder/new", reminderController.new)
