@@ -63,13 +63,11 @@ let remindersController = {
     res.redirect('/reminder');
   },
 
-  landing: (req, res) => {
-    res.render('reminder/promotion');
-  },
-
-  toLogin: (req, res) => {
+  login: (req, res) => {
     res.render('reminder/login');
   }
+
+
 
 //   user: (req, res) => {
 //     if (Database[req.body.email] == undefined) {
