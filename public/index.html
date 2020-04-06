@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="shortcut icon" href="images/alarm.png" />
+    <title>BestReminders</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Reminder</title>
   </head>
-  <body>
+  <body style="overflow: hidden;">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src = "alarm.png" alt = "Best Reminders" height="25px" width="25px">Best Reminders</a>
+        <a class="navbar-brand" href="#"><img src = "images/alarm.png" alt = "Best Reminders" height="25px" width="25px">Best Reminders</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,7 +26,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
                 <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" style="background-color: #013220;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-primary dropdown-toggle" style="background-color: #3fbef0;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Navigate
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -37,13 +40,92 @@
         </div>
       </nav>
     </div>
+    <hr> 
+    <div class="container" style="float: left; margin-left: 8.5cm; font-size: 40px;">S<span class="part1">i</span>mple, c<span class="part1">o</span>nvenient, fu<span class="part1">n</span>!</div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="width: 650px;">
+                <img class="d-block w-100" src="images/example2.png" style="width: 750px; height: 475px;">
+              </div>
+              <div class="carousel-item" style="width: 650px;">
+                <img class="d-block w-100" src="images/example.png" style="width: 650px; height: 475px;">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col" style="margin-top: 1cm; margin-left: 2cm;">
+          <br>
+          <span style="font-size: 40px;">Make private plans for yourself, make public plans with your friends </span>
+          <br>
+          <span style="color: #3fbef0;">BestReminders</span> will be sure to keep you on track. Our goal is to create a community where you can choose to have spontaneous and interactive plans!
+          <br>
+          <button type="button" class="btn btn-primary" style="background-color:#3fbef0; width: 5cm;">Learn More</button>
+          <br>
+          <span style="font-size: small;">Make planning fun!? <a href = ""><u>Sign Up</u></a></span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col" style=" margin-top: 2cm;">
+            <span style="font-size: 40px;">We keep it <span style="color: #3fbef0;">simple</span>.</span>
+            <br>
+            <br>
+            Straight forward and easy to use! Here's an example of how you'd set a reminder.
+            <br>
+            <br>
+            Want to learn more? <a href=""><u>Here</u></a> is a tutorial.
+          </div>
+          <div class="col" style="margin-left: 2cm;">
+            <img src="images/example3.png" style="width: 650px;">
+          </div>
+        </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <hr> 
-
+    <script src="script.js"></script>
   </body>
+  <br>
+  <hr>
+  <br>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary" style="background-color: #3fbef0;">About Us</button>
+        <button type="button" class="btn btn-primary" style="margin-left: 0.2cm; background-color: #3fbef0;">Privacy & Terms</button>
+        <button type="button" class="btn btn-primary" style="margin-left: 0.2cm; background-color: #3fbef0;">Sign Up</button>
+      </div>
+      <div class="col">
+        <span style="float: right; color: black;">V.103.2e</span>
+      </div>
+    </div>
+</footer>
+<span>
+  <br>
+  <br>
+  <br>
 </html>
