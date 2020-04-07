@@ -1,4 +1,5 @@
 let Database = require("../database");
+const fetch = require("node-fetch");
 
 let remindersController = {
   list: (req, res) => {
@@ -69,7 +70,7 @@ let remindersController = {
 
   toLogin: (req, res) => {
     res.render('reminder/login');
-  }
+  },
 
 //   user: (req, res) => {
 //     if (Database[req.body.email] == undefined) {
@@ -82,6 +83,28 @@ let remindersController = {
 //       res.redirect("/reminder");
 //     }
 //   }
+
+// //  same as getWeather: async function(req, res) {
+//   getWeather: async (req, res) => {
+//     const dsKey = "03c38bf0d83946fe44d22710353f13a1";
+//     const latitude = "49.2497";
+//     const longitude = "-123.1193";
+//     const fetchWeather = await fetch(`https://api.darksky.net/forecast/${dsKey}/${latitude},${longitude}`);
+//     const data = await fetchWeather.json();
+//     console.log(data);
+//     // json formats the data into something more useable for javascript (dictionary-like)
+//   }
+
+  //  same as getWeather: async function(req, res) {
+    getWeather: async (req, res) => {
+        const fetchWeather = await fetch('https://api.darksky.net/forecast/03c38bf0d83946fe44d22710353f13a1/49.2497,-123.1193,units=si');
+        const data = await fetchWeather.json();
+        res.render("reminder/weather", {
+          data
+        })
+        console.log(data);
+        // json formats the data into something more useable for javascript (dictionary-like)
+      },
 }
 
 module.exports = remindersController
