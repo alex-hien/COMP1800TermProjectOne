@@ -97,7 +97,7 @@ let remindersController = {
 
   //  same as getWeather: async function(req, res) {
     getWeather: async (req, res) => {
-        const fetchWeather = await fetch('https://api.darksky.net/forecast/03c38bf0d83946fe44d22710353f13a1/49.2497,-123.1193,units=si');
+        const fetchWeather = await fetch('https://api.darksky.net/forecast/03c38bf0d83946fe44d22710353f13a1/49.2497,-123.1193');
         const data = await fetchWeather.json();
         res.render("reminder/weather", {
           data
