@@ -1,3 +1,23 @@
 .deleteForm {
   display: inline-block
 }
+
+.part1{
+  color: #3fbef0;
+  font-size: 40px;
+}
+
+.div1{
+  float: left;
+  font-size: 40px;
+}
+
+.besideFirst{
+  font-size: 20px;
+  margin-left: 2cm;
+  margin-bottom: 3cm;
+}
+
+html{
+  overflow-y: scroll;
+}
