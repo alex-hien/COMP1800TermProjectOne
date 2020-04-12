@@ -89,7 +89,9 @@ Complete Trello board and wireframe, set up Github repository, assign sprint mem
      From your terminal, type in "cd COMP1800TermProjectOne-master" to enter downloaded file
   
   7) Once your terminal is in the downloaded file:
-     From your terminal, type in "node index.js"
+     From your terminal, type in "npm install node-fetch --save"
+     
+  8) From your terminal, type in "node index.js"
      
   8) Open your web browser (Googlechrome preferred) and type in http://localhost:3000 to reach landing page and                              http://localhost:3000/Reminder to reach reminder application
 
