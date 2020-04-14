@@ -1,9 +1,7 @@
 **Alex Hien**
 
 Tasks Worked On:
-
-Created landing page:
-
+* Created landing page:
 - Page layout and from bootstrap (edited and tweaked parts of code for desired outcome)
   - learned basics of boostrap from lecture video
   - looked at existing professional landing pages for inspiration
@@ -19,11 +17,11 @@ Created landing page:
 **Duncan Keen**
 
 Tasks Worked On:
-*Created GitHub repository
-*Created Trello Board
-*Created the Plan of Action Document
+* Created GitHub repository
+* Created Trello Board
+* Created the Plan of Action Document
 
-*Implemented DarkSky Weather Api:
+* Implemented DarkSky Weather Api:
  -learned about API's through the lecture video
  -applied knowledge learned from COMP 1510
  -created ejs page for output of weather data
