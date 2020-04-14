@@ -1,3 +1,6 @@
+Breakdown of Work
+================
+
 **Alex Hien**
 
 Tasks Worked On:
@@ -26,7 +29,7 @@ Tasks Worked On:
  -applied knowledge learned from COMP 1510
  -created ejs page for output of weather data
  
- * 
+
  
  
 **David Lee**
