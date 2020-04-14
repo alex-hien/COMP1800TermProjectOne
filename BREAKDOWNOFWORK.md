@@ -23,7 +23,7 @@ Tasks Worked On:
 Tasks Worked On:
 * Created GitHub repository
 * Created Trello Board
-  - 
+  - Created tags for tasks
 * Created the Plan of Action Document
 * Wrote Incomplete Features Documentation
 * Added MIT Licensing to Github Repository
