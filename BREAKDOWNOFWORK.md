@@ -1,4 +1,5 @@
 **Alex Hien**
+
 Tasks Worked On:
 
 Created landing page:
@@ -16,6 +17,7 @@ Created landing page:
 
 
 **Duncan Keen**
+
 Tasks Worked On:
 *Created GitHub repository
 *Created Trello Board
