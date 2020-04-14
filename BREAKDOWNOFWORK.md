@@ -27,3 +27,13 @@ Tasks Worked On:
  -created ejs page for output of weather data
  
  * 
+ 
+ 
+**David Lee**
+
+Tasks Worked On:
+* Attempt to created Fake Authentication/Real Authentication:
+  -research on creating authentication
+* Login/Sign up Page:
+  -learned bootstrap/express/ejs through online research and lecture video
+* Create Promotion Page
